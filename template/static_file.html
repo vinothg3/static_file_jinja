@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <center>
+        <h1>THIS IS A WEBPAGE WELCOME</h1>
+        <img src="{% static 'image/download.jpeg' %}" alt="">
+        <h5>Developed a strong foundation in Python programming, including variables, data types, control flow, and object-oriented programming.
+            Learned to create web page structure using HTML and enhance user interfaces with CSS for a visually appealing experience.
+            </h5>
+        <a href="{% url 'page' %}">Next ></a>
+    </center>
+</body>
+</html>

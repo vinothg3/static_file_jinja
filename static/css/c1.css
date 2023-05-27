@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: aqua;
+}
+h5
+{
+    color:white;
+    background-color:yellow;
+    padding: 10px;
+
+}
+a
+{
+    background-color: cyan;
+    padding: 10px 20px;
+    color:red;
+    border: 2px yellow solid;
+    border-radius: 10px;
+}
